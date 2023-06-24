@@ -39,11 +39,36 @@ li {
 }
 
 /* descendant selector */
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+/* nested descendant selector */
+
+/* hash selector */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
-  font-style: italic;
+/* class selector */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
-/* nested descendant selector */
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
