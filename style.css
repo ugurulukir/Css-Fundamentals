@@ -1,3 +1,11 @@
+/* universal selector
+* {
+} */
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
 h1,
 h2,
 h3,
@@ -139,7 +147,7 @@ a:active {
   color: red;
 }
 
-.copyright {
+/* .copyright {
   color: blue;
 }
 
@@ -148,5 +156,15 @@ a:active {
 }
 
 footer p {
-  color: green;
+  color: green !important;
+} */
+
+/* nav a:link nav p {
+  font-size: 18px;
+} */
+
+/* instead of this */
+
+nav {
+  font-size: 18px;
 }
