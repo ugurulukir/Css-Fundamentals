@@ -6,6 +6,23 @@ body {
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
 }
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+}
+
+/* border */
+/* element selector */
+
+aside {
+  background-color: #f7f7f7;
+  /* border: 5px solid #1098ad; */
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
 h1,
 h2,
 h3,
@@ -46,6 +63,7 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* descendant selector */
@@ -81,20 +99,6 @@ li {
 
 .related {
   list-style: none;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-}
-
-/* border */
-/* element selector */
-
-aside {
-  background-color: #f7f7f7;
-  /* border: 5px solid #1098ad; */
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
 }
 
 /* .first-li {
